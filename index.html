@@ -65,6 +65,19 @@
   }
   .since::after{background:linear-gradient(90deg,var(--gold2),transparent);}
 
+  .redirect{
+    display:inline-block;
+    font-size:12px;
+    color:var(--gold2);
+    font-weight:700;
+    letter-spacing:0.5px;
+    margin-bottom:18px;
+    background:rgba(37,211,102,0.1);
+    border:1px solid rgba(37,211,102,0.3);
+    padding:6px 14px;
+    border-radius:999px;
+  }
+
   .subtitle{
     font-size:15px;
     color:var(--text);
@@ -186,6 +199,7 @@
     <div class="subtitle">CERTIFIED EDUCATIONAL PLATFORM</div>
     <div class="pill">24HR MENTORSHIP &amp; SUPPORT</div>
     <div class="join">JOIN US TODAY</div>
+    <div class="redirect">Redirecting in <span id="countdown">5</span>s...</div>
     <div class="subscribers">Thousands of Subscribers joined</div>
 
     <div class="features">
@@ -216,5 +230,21 @@
       <a href="https://wa.link/zwkk9d" target="_blank" rel="noopener noreferrer">Contact Us</a>
     </div>
   </div>
+
+  <script>
+    //(function(){
+     // var seconds = 5;
+     // var el = document.getElementById('countdown');
+     // var target = "https://wa.link/zwkk9d";
+     // var timer = setInterval(function(){
+      //  seconds -= 1;
+      //  if (el) el.textContent = seconds;
+      // if (seconds <= 0){
+       //   clearInterval(timer);
+       //   window.location.href = target;
+    //    }
+     // }, 1000);
+   // })();
+  </script>
 </body>
 </html>
